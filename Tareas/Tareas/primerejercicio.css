@@ -1,6 +1,6 @@
 html {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    background-color: rgb(186, 212, 70);
+    font-family: monospace;
+    background-color: rgb(212, 210, 70);
     color: rgb(0, 0, 0);
     scroll-behavior: smooth;
 }
