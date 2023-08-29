@@ -1,7 +1,44 @@
 html {
     
     font-family: monospace;
-    background-color: rgb(229, 236, 128);
-    color: rgb(0, 0, 0);
+    background-color: rgb(125, 118, 118);
+    color: rgb(189, 189, 189);
     scroll-behavior: smooth;
+    align-content: space-around;
 }
+
+#titulo-principal {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 32px;
+    text-align: center;
+    color: rgb(104, 34, 173);
+  }
+
+
+img {
+    max-width: 100%;
+  }
+
+
+.allign-image{
+    position: relative;
+    top: 20px; /* ajustar los valores para mover la imagen */
+    right: -600px;
+    width: 450;
+    height: 250px;
+    border:2px solid #9358a5;
+    display: block;
+
+}
+
+.text-left {
+    
+    text-align: left;
+    right: 10px;
+
+  }
+
+.text-center{
+    text-align: center;
+}
+
