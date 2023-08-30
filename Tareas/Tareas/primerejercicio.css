@@ -22,13 +22,24 @@ img {
 
 .allign-image{
     position: relative;
-    top: 20px; /* ajustar los valores para mover la imagen */
+    top: 50px; /* ajustar los valores para mover la imagen */
     right: -600px;
-    width: 450;
-    height: 250px;
+    width: 550px;
+    height: 450px;
     border:2px solid #9358a5;
     display: block;
 
+}
+
+.allign-image-poster{
+
+    position: relative;
+    top: 50px; /* ajustar los valores para mover la imagen */
+    right: -500px;
+    width: 250px;
+    height: 500px;
+    border:2px solid #9358a5; 
+    display: block;
 }
 
 .text-left {
@@ -42,3 +53,16 @@ img {
     text-align: center;
 }
 
+.caja {
+  background-color: aqua;
+  border: 4px color red;
+  color: rgb(218, 23, 23);
+  margin: 20px;
+  padding: 16px;
+}
+  
+.caja-1{
+ width: 200px;
+ height: 200px;
+ box-sizing: content-box;
+}
