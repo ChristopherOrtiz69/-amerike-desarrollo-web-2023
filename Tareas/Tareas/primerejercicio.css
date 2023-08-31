@@ -23,10 +23,10 @@ img {
 .allign-image{
     position: relative;
     top: 50px; /* ajustar los valores para mover la imagen */
-    right: -600px;
+    right: -500px;
     width: 550px;
     height: 450px;
-    border:2px solid #9358a5;
+    border:10px solid #9358a5;
     display: block;
 
 }
@@ -35,11 +35,28 @@ img {
 
     position: relative;
     top: 50px; /* ajustar los valores para mover la imagen */
-    right: -500px;
-    width: 250px;
-    height: 500px;
-    border:2px solid #9358a5; 
+    right: -600px;
+    width: 350px;
+    height: 490px;
+    border:10px solid #9358a5; 
     display: block;
+    
+}
+
+.allign-table{
+  position: relative;
+  top: 100px; /* ajustar los valores para mover la imagen */
+  right: -300px;
+  width: 1000px;
+  height: 250px;
+  
+ 
+}
+
+.allign-trailer{
+position: relative;
+top: 200px;
+right: -300px;;
 }
 
 .text-left {
