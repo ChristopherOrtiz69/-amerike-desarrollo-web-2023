@@ -1,23 +1,38 @@
 html {
     
     font-family: monospace;
-    background-color: rgb(125, 118, 118);
-    color: rgb(189, 189, 189);
+    font-size: 16px;
+    background-color: rgb(92, 92, 92);
+    color: rgb(209, 203, 231);
     scroll-behavior: smooth;
     align-content: space-around;
 }
 
+body {
+  background-color: var(--color-dark);
+  color: var(--color-primary);
+  font-family: "Poppins", sans-serif;
+}
+a:hover {
+  color: rgb(122, 37, 192);
+  background-color: rgb(178, 176, 178);
+}
+
 #titulo-principal {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 32px;
+    font-size: 50px;
     text-align: center;
-    color: rgb(104, 34, 173);
+    color: rgb(144, 95, 192);
   }
 
 
 img {
     max-width: 100%;
   }
+  
+.menu{
+  color: rgb(252, 252, 252);
+}
 
 
 .allign-image{
