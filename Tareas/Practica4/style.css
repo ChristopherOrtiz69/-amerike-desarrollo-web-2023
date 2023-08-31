@@ -1,0 +1,44 @@
+html {
+    
+    font-family: monospace;
+    font-size: 20px;
+    background-color: rgb(82, 143, 241);
+    color: rgb(247, 247, 247);
+    scroll-behavior: smooth;
+    align-content: space-around;
+}
+
+body {
+    background-color: var(--color-dark);
+    color: var(--color-primary);
+    font-family: "Poppins", sans-serif;
+  }
+  a {
+    color: rgb(28, 37, 132);
+    background-color: rgb(165, 165, 165);
+    transition: all 0.3s ease-out;
+  }
+  a:hover {
+    color: rgb(37, 135, 192);
+    background-color: rgb(178, 176, 178);
+  }
+
+img {
+    max-width: 100%;
+  }
+
+.allign-p{
+    position: relative;
+    top: -400px; /* ajustar los valores para mover la imagen */
+    right: -500px;
+    width: 550px;
+}
+
+.border{
+    border: 3px solid white;
+
+}
+.allign-text-center{
+    font-size: 40px;
+    text-align: center;
+}
